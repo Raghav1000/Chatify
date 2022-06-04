@@ -1,0 +1,45 @@
+.userlist {
+    margin-left: 40px;
+    margin-right: 70px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    background-color: rgb(234, 234, 234);
+    border-radius: 5px;
+}
+
+.userlist__container {
+    cursor: pointer;
+    height: 55px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.userlist__image {
+    width: 35px;
+    margin-left: 20px;
+    border-radius: 1000px;
+}
+
+.userlist__container__right {
+    display: flex;
+    flex-direction: column;
+}
+
+.userlist__username {
+    margin: 0;
+    margin-left: 10px;
+    font-size: 0.8rem;
+}
+
+.userlist__email {
+    margin: 0;
+    font-size: 0.6rem;
+    margin-left: 10px;
+    font-weight: 400;
+    margin-top: 3px;
+}
+
+.userlist__container:hover {
+    background-color: #e8f7ff;
+}
